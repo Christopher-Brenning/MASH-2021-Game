@@ -1,6 +1,6 @@
 /* Body styling */
 body {
-    background: #rgb(41, 41, 41);
+    background: rgb(41, 41, 41);
     color: rgb(155, 155, 155);
     font-family: Helvetica, Arial;
     font-size: 27px;
@@ -92,7 +92,7 @@ body {
     margin: 60px 0;
     background: rgb(41, 41, 41);
     border-radius: 6px;
-    color: #rgb(155, 155, 155);
+    color: rgb(155, 155, 155);
     transition: 1s linear;
   }
   
