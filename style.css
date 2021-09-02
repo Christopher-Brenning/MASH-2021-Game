@@ -1,7 +1,7 @@
 /* Body styling */
 body {
-    background: rgb(41, 41, 41);
-    color: rgb(155, 155, 155);
+    background: rgb(6, 22, 255);
+    color:  rgb(0, 0, 0);
     font-family: Helvetica, Arial;
     font-size: 27px;
     font-weight: 300;
@@ -15,7 +15,7 @@ body {
   /* Heading Styles */
   h1 {
     font-size: 60px;
-    color: rgb(155, 155, 155);
+    color: rgb(255, 251, 0);
     text-align: center;
   }
   
@@ -29,10 +29,10 @@ body {
   
   /* Submit Button, Columns, Questions, and Inputs */
   .button-submit {
-    background: rgb(41, 41, 41);
+    background: #414141;
     border: 3px solid #fff;
     border-radius: 6px;
-    color: rgb(155, 155, 155);
+    color: rgb(250, 250, 250);
     cursor: pointer; 
     display: block;
     font-size: 20px;
@@ -43,13 +43,13 @@ body {
   }
   
   .bucket {
-    display: inline-block;
+    display: outside;
     margin-bottom: 40px;
     width: 100%;
   }
   
   .choice-bucket {
-    display: inline-block;
+    display: inside;
     float: left;
     margin: 0;
     padding: 0;
@@ -64,8 +64,8 @@ body {
   
   .choice-bucket input {
     border: 0;
+    background: #a7c1b8;
     border-radius: 6px;
-    color: rgb(155, 155, 155);
     font-size: 18px;
     margin: 15px 4%;
     outline: 0;
@@ -90,9 +90,9 @@ body {
   /* Answer Div */
   #answers {
     margin: 60px 0;
-    background: rgb(41, 41, 41);
+    background: rgb(0, 47, 255);
     border-radius: 6px;
-    color: rgb(155, 155, 155);
+    color: rgb(255, 0, 0);
     transition: 1s linear;
   }
   
