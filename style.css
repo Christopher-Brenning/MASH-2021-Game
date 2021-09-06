@@ -14,7 +14,7 @@ body {
   
   /* Heading Styles */
   h1 {
-    font-size: 60px;
+    font-size: 120px;
     color: rgb(255, 251, 0);
     text-align: center;
   }
@@ -30,8 +30,8 @@ body {
   /* Submit Button, Columns, Questions, and Inputs */
   .button-submit {
     background: #414141;
-    border: 3px solid #fff;
-    border-radius: 6px;
+    border: 6px solid #fff;
+    border-radius: 12px;
     color: rgb(250, 250, 250);
     cursor: pointer; 
     display: block;
